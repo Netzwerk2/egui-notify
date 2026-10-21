@@ -12,16 +12,16 @@ readme = "README.md"
 path = "src/lib.rs"
 
 [dependencies]
-egui = { version = "0.36", default-features = false }
+egui = { version = "0.37", default-features = false }
 
 [dev-dependencies]
-eframe = { version = "0.36", default-features = false, features = [
+eframe = { version = "0.37", default-features = false, features = [
     "default_fonts",
     "glow",
     "x11",
     "wayland",
 ] }
-egui-phosphor = { git = "https://github.com/UnknownSuperficialNight/egui-phosphor.git", commit = "d392183fe3766d49a78e4fce249e73777985119a" }
+egui-phosphor = { git = "https://github.com/Netzwerk2/egui-phosphor", rev = "327af2c818c1e588e9184ff8a7e3c185f74a4fd5" }
 
 [lints.rust]
 unsafe_code = "forbid"
